@@ -3,8 +3,15 @@
 @tailwind utilities;
 
 @font-face {
-    font-family: 'Pilowlava-Regular';
+    font-family: 'PilowlavaRegular';
     src: url('./fonts/Pilowlava-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MisoRegular';
+    src: url('./fonts/miso-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
