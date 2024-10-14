@@ -1,5 +1,15 @@
+import './index.css'
+import Navbar from './scenes/navbar'
+import AppTittle from './scenes/tittle';
+
 function App() {
-  return <h1>Hello world</h1>
+  return (
+    <div>
+      <AppTittle/>
+      <Navbar>
+      </Navbar>
+    </div>
+  );
 }
 
 export default App
